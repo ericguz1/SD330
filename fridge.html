@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Refrigerator Display</title>
+  <link rel="stylesheet" href="fridge.css">
+
+</head>
+
+<body>
+  <div class="monitor">
+    <div class="screen">
+      <div id="clock" class="clock">
+      </div>
+      <div id="temperature" class="temperature">
+        Temperature: 39°F
+      </div>
+      <div class="buttons">
+        <button id="powerBtn" class="power-btn" onclick="togglePower()">Power</button>
+      </div>
+      <div class="info-section" id="infoSection">
+        <button id="fridgeBtn" class="info-btn" onclick="toggleFridge()">Inside the Fridge</button>
+        <button id="tvBtn" class="info-btn" onclick="toggleTV()">TV</button>
+        <button id="browserBtn" class="info-btn" onclick="toggleBrowser()">Browse The Web</button>
+      </div>
+      <div class="display-section">
+        <img id="fridgeImage" class="display-image"
+          src="https://hips.hearstapps.com/hmg-prod/images/fridge-promo-1534795733.jpg?crop=0.651xw:0.649xh;0.228xw,0.160xh&resize=640:*"
+          alt="Inside the Fridge">
+        <img id="tvImage" class="display-image"
+          src="https://assets2.cbsnewsstatic.com/hub/i/r/2021/03/17/8943de62-3738-44bd-bac6-ba51d166b0c2/thumbnail/640x382/c692a4ad08ac58d766d8f07353bf059e/29-fave-tv-family-feud.jpg?v=26439302e0bbe3219b6ef78d2fd37ce0"
+          alt="TV Display">
+        <img id="browserImage" class="display-image"
+          src="https://www.google.com/chrome/static/images/dark-mode/chrome-classic.png" alt="Browser Display">
+      </div>
+    </div>
+  </div>
+
+  <script src="fridge.js"></script>
+  <footer>
+    <hr>
+    <small>&copy; Eric Guzman, 03/4/24</small>
+  </footer>
+</body>
+
+</html>
