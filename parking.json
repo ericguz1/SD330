@@ -1,0 +1,150 @@
+{
+    "parkingLots": [
+        {
+            "name": "Foy",
+            "mapFilename": "foymap.jpg",
+            "totalSpaces": 100,
+            "comments": "Nearest to the Hancock building.",
+            "EVChargingStations": false,
+            "PeakUsageHours": "10AM-12PM",
+            "spaces": [
+                {
+                    "number": 1,
+                    "type": "faculty",
+                    "handicap": true,
+                    "status": "filled",
+                    "filledDateTime": "2024-04-28T14:30:00Z",
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 2,
+                    "type": "student",
+                    "handicap": false,
+                    "status": "reserved",
+                    "filledDateTime": null,
+                    "reservedDateTime": "2024-04-29T08:00:00Z"
+                },
+                {
+                    "number": 3,
+                    "type": "faculty",
+                    "handicap": false,
+                    "status": "available",
+                    "filledDateTime": null,
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 4,
+                    "type": "student",
+                    "handicap": true,
+                    "status": "filled",
+                    "filledDateTime": "2024-04-28T09:45:00Z",
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 5,
+                    "type": "faculty",
+                    "handicap": false,
+                    "status": "reserved",
+                    "filledDateTime": null,
+                    "reservedDateTime": "2024-04-29T12:00:00Z"
+                },
+                {
+                    "number": 6,
+                    "type": "student",
+                    "handicap": false,
+                    "status": "available",
+                    "filledDateTime": null,
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 7,
+                    "type": "faculty",
+                    "handicap": true,
+                    "status": "available",
+                    "filledDateTime": null,
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 8,
+                    "type": "student",
+                    "handicap": false,
+                    "status": "filled",
+                    "filledDateTime": "2024-04-27T11:30:00Z",
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 9,
+                    "type": "faculty",
+                    "handicap": true,
+                    "status": "reserved",
+                    "filledDateTime": null,
+                    "reservedDateTime": "2024-04-29T09:00:00Z"
+                },
+                {
+                    "number": 10,
+                    "type": "student",
+                    "handicap": false,
+                    "status": "available",
+                    "filledDateTime": null,
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 11,
+                    "type": "faculty",
+                    "handicap": false,
+                    "status": "filled",
+                    "filledDateTime": "2024-04-28T08:20:00Z",
+                    "reservedDateTime": null
+                },
+                {
+                    "number": 12,
+                    "type": "student",
+                    "handicap": true,
+                    "status": "available",
+                    "filledDateTime": null,
+                    "reservedDateTime": null
+                }
+            ]
+        },
+        {
+            "name": "Donnelly",
+            "mapFilename": "donnellymap.jpg",
+            "totalSpaces": 200,
+            "comments": "Near the football field.",
+            "EVChargingStations": false,
+            "PeakUsageHours": "2PM-4PM"
+        },
+        {
+            "name": "McCann",
+            "mapFilename": "mccannmap.jpg",
+            "totalSpaces": 180,
+            "comments": "Close McCann center and Sheahan.",
+            "EVChargingStations": false,
+            "PeakUsageHours": "11AM-1PM"
+        },
+        {
+            "name": "Midrise",
+            "mapFilename": "midrisemap.jpg",
+            "totalSpaces": 160,
+            "comments": "Near riverview lot.",
+            "EVChargingStations": true,
+            "PeakUsageHours": "9AM-11AM"
+        },
+        {
+            "name": "Fontaine",
+            "mapFilename": "fontainemap.jpg",
+            "totalSpaces": 140,
+            "comments": "Near an exit/entrance.",
+            "EVChargingStations": false,
+            "PeakUsageHours": "10AM-12PM"
+        },
+        {
+            "name": "Riverview",
+            "mapFilename": "riverviewmap.jpg",
+            "totalSpaces": 120,
+            "comments": "Near midrise lot.",
+            "EVChargingStations": false,
+            "PeakUsageHours": "2PM-3PM"
+        }
+    ]
+}
