@@ -1,5 +1,5 @@
 {
-    "MaristParkingLots": [
+    "parkingLots": [
         {
             "name": "Foy",
             "mapFilename": "foymap.jpg",
@@ -109,18 +109,20 @@
         {
             "name": "Donnelly",
             "mapFilename": "donnellymap.jpg",
-            "totalSpaces": 200,
+            "totalSpaces": 100,
             "comments": "Near the football field.",
             "EVChargingStations": false,
-            "PeakUsageHours": "2PM-4PM"
+            "PeakUsageHours": "2PM-4PM",
+            "spaces": []
         },
         {
             "name": "McCann",
             "mapFilename": "mccannmap.jpg",
-            "totalSpaces": 180,
+            "totalSpaces": 200,
             "comments": "Close McCann center and Sheahan.",
             "EVChargingStations": false,
-            "PeakUsageHours": "11AM-1PM"
+            "PeakUsageHours": "11AM-1PM",
+            "spaces": []
         },
         {
             "name": "Midrise",
@@ -128,23 +130,26 @@
             "totalSpaces": 160,
             "comments": "Near riverview lot.",
             "EVChargingStations": true,
-            "PeakUsageHours": "9AM-11AM"
+            "PeakUsageHours": "9AM-11AM",
+            "spaces": []
         },
         {
             "name": "Fontaine",
             "mapFilename": "fontainemap.jpg",
-            "totalSpaces": 140,
+            "totalSpaces": 80,
             "comments": "Near an exit/entrance.",
             "EVChargingStations": false,
-            "PeakUsageHours": "10AM-12PM"
+            "PeakUsageHours": "10AM-12PM",
+            "spaces": []
         },
         {
             "name": "Riverview",
             "mapFilename": "riverviewmap.jpg",
-            "totalSpaces": 120,
+            "totalSpaces": 140,
             "comments": "Near midrise lot.",
             "EVChargingStations": false,
-            "PeakUsageHours": "2PM-3PM"
+            "PeakUsageHours": "2PM-3PM",
+            "spaces": []
         }
     ]
 }
