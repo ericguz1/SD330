@@ -19,7 +19,7 @@ function displayParkingLots(parkingLots) {
             const lotDiv = document.createElement("div");
             lotDiv.innerHTML = `
                 <h3>${parkingLot.name}</h3>
-                <img src="images/${parkingLot.mapFilename}" alt="${parkingLot.name}" style="max-width: 400px;">
+                <img src="${parkingLot.mapImageUrl}" alt="${parkingLot.name}" style="max-width: 400px;">
                 <p>${parkingLot.comments}</p>
                 <p>Total Spaces: ${parkingLot.totalSpaces}</p>
                 <p>Peak Usage Hours: ${parkingLot.PeakUsageHours}</p>
