@@ -17,9 +17,32 @@ function displayParkingLots(parkingLots) {
     if (parkingLots && parkingLots.length > 0) {
         parkingLots.forEach(parkingLot => {
             const lotDiv = document.createElement("div");
+            let mapImageUrl;
+            switch (parkingLot.name) {
+                case "Foy":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/foymap.jpg";
+                    break;
+                case "Donnelly":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/donnellymap.jpg";
+                    break;
+                case "Fontaine":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/fontainemap.jpg";
+                    break;
+                case "McCann":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/mccannmap.jpg";
+                    break;
+                case "Midrise":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/midrisemap.jpg";
+                    break;
+                case "Riverview":
+                    mapImageUrl = "https://ericguz1.github.io/SD330/riverviewmap.jpg";
+                    break;
+                default:
+                    mapImageUrl = "https://via.placeholder.com/400x300?text=Map+Not+Available";
+            }
             lotDiv.innerHTML = `
                 <h3>${parkingLot.name}</h3>
-                <img src="${parkingLot.mapImageUrl}" alt="${parkingLot.name}" style="max-width: 400px;">
+                <img src="${mapImageUrl}" alt="${parkingLot.name}" style="max-width: 400px;">
                 <p>${parkingLot.comments}</p>
                 <p>Total Spaces: ${parkingLot.totalSpaces}</p>
                 <p>Peak Usage Hours: ${parkingLot.PeakUsageHours}</p>
